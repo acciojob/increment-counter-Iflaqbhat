@@ -9,7 +9,7 @@ const incrementButton = document.getElementById('incrementBtn');
 // Adding an event listener to the button
 incrementButton.addEventListener('click', function () {
     // Show the alert with the un-incremented value
-    alert(`The current value is: ${count}`);
+    alert(count);
     
     // Increment the counter value after alert
     count++;
